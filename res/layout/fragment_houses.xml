@@ -13,8 +13,8 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="NO-PAPER POLICY"
-            android:id="@+id/whatButton"
+            android:text="INFRASTRUSTURE DESIGN"
+            android:id="@+id/structButton"
             android:layout_row="0"
             android:layout_column="0"
             />
@@ -22,8 +22,8 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="TELECOMMUTING"
-            android:id="@+id/whyButton"
+            android:text="ENERGY EFFICIENT EQUIPMENT"
+            android:id="@+id/enefButton"
             android:layout_row="0"
             android:layout_column="1"
             />
@@ -31,15 +31,15 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="GREEN SPACE"
-            android:id="@+id/exampleButton"
+            android:text="EFFICIENT LANDSCAPING"
+            android:id="@+id/landButton"
             android:layout_row="1"
             android:layout_column="0"/>
 
-        <Button android:id="@+id/aboutButton"
+        <Button android:id="@+id/householdButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="VEHICLE POOLING"
+            android:text="GREENER IN YOUR HOUSEHOLD"
             android:layout_row="1"
             android:layout_column="1"/>
 

@@ -80,6 +80,67 @@ public class CustomAdapter extends ArrayAdapter<String>{
                 break;
             case "Ventilation":
                 content = "Ample Ventilation:\nA properly designed ventilation system for cleaner outdoor or recirculated air.\nClean Air:\nFiltration and treatment of indoor air, and also of degraded air before its emission.";
+                bobsImage.setImageResource(R.drawable.ventilation);
+                break;
+            case "Emission":
+                content = "Diffusion of air impurities such as microbial contaminants and volatile organic compounds should be minimized through wise choice of construction and interior-finishing material.\nHumidity Control:\nPrevent airborne bacteria, mold, and other fungi, as well as radon, through envelope design, and heating, ventilating, air-conditioning (HVAC) system designs, that manage moisture sources from outside and inside the building.";
+                bobsImage.setImageResource(R.drawable.humidity);
+                break;
+            case "Individual":
+                content = "As an individual, you can make a great difference in your workplace by following principles of sustainable development.\n\nCartons:\nMost cartons manufactured around the world are used only once. Save used cartons and reuse them when needed later.\nStaple-pins:\n120 tons of steel can be saved in UK if every worker uses one less staple-pin per day.\nRecycled Paper:\nGallons of water can be saved merely by using recycled paper in offices instead of virgin paper.";
+                bobsImage.setImageResource(R.drawable.files);
+                break;
+            case "Company":
+                content = "As a group, office-workers can help in the sustainable trasformation of organizations.\nCar-Pooling:\nBy the addition of commuters in vehicles, a substantial amount of liquid and gaseous fossil fuels can be conserved.\nNo-Paper Policy: The greenest paper is no paper at all, so keep things digital and dematerialized whenever possible. The more you do online, the less you need paper. Keep files on computers instead of in file cabinets.";
+                bobsImage.setImageResource(R.drawable.carpool);
+                break;
+            case "Geo":
+                content = "Geothermal heating/cooling systems:\nOperated via sub-surface conductive heat transfer, these advanced systems use the naturally renewable temperature of the earth's crust as a heat source in the winter, and as a heat sink in the summer.\nA geothermal heat pump is vastly more efficient than conventional heating systems because it doesn’t burn fuel to create warmth; it simply moves existing heat from one place to another. Geothermal Temperature Regulation has the following advanages:\n- Much lower operating costs than other systems.\n- Can be installed in both new construction and retrofit situations.\n- Much quieter than other cooling systems.";
+                bobsImage.setImageResource(R.drawable.geo);
+                break;
+            case "Patient":
+                content = "Patient Care:\nMaximized patient care is essential for sustenability in hospital premises. Thermal insulation of exterior walls, roof, floors for comfort and hygiene, advanced and more convenient imaging procedures and recovery, etc. are indispensable.\nFavourable Ambience:\nAmple greenery outside the hospital buildiing brings positive aura. Non-toxic cleaning products with relieving fragrance are also advisable.";
+                bobsImage.setImageResource(R.drawable.hosinfra);
+                break;
+            case "LowEnergy":
+                content = "Integrated Low-energy Imaging Systems:\nThe energy cost can be controlled during installations by taking into consideration factors such as life cycle cost analysis, energy consumption, energy efficiency etc.\nTechnical Efficiency:\nMeasures can be taken for improving power factor through the use of capacitors for the reduction of power loss due to harmonic currents.";
+                bobsImage.setImageResource(R.drawable.medequip);
+                break;
+            case "Onsite":
+                content = "On-site treatment:\nOn-site treatment of biomedical waste is generally cost effective for large hospitals and major universities who have the space, labor and budget to operate the relevant equipment.\nAn autoclave uses steam and pressure to sterilize the waste or reduce its microbiological load to a level at which it may be safely disposed of.";
+                bobsImage.setImageResource(R.drawable.onsite);
+                break;
+            case "Offsite":
+                content = "Off-site treatment:\nOff-site treatment and disposal involves hiring of a biomedical waste disposal service to collect and haul away biomedical waste in special containers (usually cardboard boxes, or reusable plastic bins) for treatment at a facility designed to handle biomedical waste.\nBiomedical waste should be collected in containers that are leak-proof and sufficiently strong to prevent breakage during handling.";
+                bobsImage.setImageResource(R.drawable.offsite);
+                break;
+            case "Device":
+                content = "Reprocessed Medical Devices:\nProper reprocessing and sterilization of medical devices allows hospitals to reduce the amount of waste entering landfills.\nAccording to The Journal of Bone and Joint Surgery, reprocessed devices can cost half as much as new devices";
+                bobsImage.setImageResource(R.drawable.device);
+                break;
+            case "Material":
+                content = "Use Sustainable Building Materials:\nEach and every part of your house such as roofing material, building material, cabinets, counters and insulation to your flooring can be environment-friendly.\nUse products such as reclaimed lumber, recycled plastic, recycled glass or natural products such as bamboo, cork and linoleum which are made of natural, renewable materials.";
+                bobsImage.setImageResource(R.drawable.material);
+                break;
+            case "Insulation":
+                content = "Proper Insulation: Don’t let heating and cooling of your interior spaces air go waste through improper insulation.\nProper insulation will not only reduce your energy consumption but will bring down your electricity bills substantially.";
+                bobsImage.setImageResource(R.drawable.insulation);
+                break;
+            case "Appliances":
+                content = "Energy Star Label:\nEnergy Star is becoming a well known label and consumers today choose energy star appliances for their homes.\nThese appliances offer significant cost and energy savings without compromising performance.\nEco-Friendly Lighting:\nBoth LED and CFL cost a bit more upfront but use less energy and last longer than traditional incandescent bulbs.";
+                bobsImage.setImageResource(R.drawable.star);
+                break;
+            case "Water":
+                content = "Water Conserving Fixtures:\nLow-flow faucets, toilets and shower-heads are a few of the ways that you can use while building a green home to conserve water.\nThey can cut down on your water bills cost and make your home much more environment friendly";
+                bobsImage.setImageResource(R.drawable.water);
+                break;
+            case "Landscape":
+                content = "Smart Trees:\nPlanting trees on southern and western side of your home can keep your home cooler as they will block sunlight from falling directly on your home and during the winter, when trees lose their leaves, they will allow more sunlight to reach your home.\nWaste Decomposition:\nUse kitchen waste as compost in gardens and pots.\nToilet waste to be treated efficiently by water treatment plants.";
+                bobsImage.setImageResource(R.drawable.landscape);
+                break;
+            case "Household":
+                content = "Your Own Bit:\n- Turning off any lights or appliances when you don’t use them.\n- Remembering that even when you’re not using something and it’s plugged in, it’s still eating away at potentially saved energy.\n- Buying only recyclable containers and reusing plastics for food storage.";
+                bobsImage.setImageResource(R.drawable.bit);
                 break;
 
         }

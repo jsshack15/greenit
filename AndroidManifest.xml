@@ -52,6 +52,24 @@
         </activity>
         <activity android:name=".OfficeGeoActivity" >
         </activity>
+        <activity android:name=".HealthInfraActivity" >
+        </activity>
+        <activity android:name=".MedEquipActivity" >
+        </activity>
+        <activity android:name=".BioWasteActivity" >
+        </activity>
+        <activity android:name=".MedDeviceActivity" >
+        </activity>
+        <activity android:name=".InfraActivity" >
+        </activity>
+        <activity android:name=".HouseInfraActivity" >
+        </activity>
+        <activity android:name=".EnefActivity" >
+        </activity>
+        <activity android:name=".LandActivity" >
+        </activity>
+        <activity android:name=".HouseholdActivity" >
+        </activity>
     </application>
 
 </manifest>

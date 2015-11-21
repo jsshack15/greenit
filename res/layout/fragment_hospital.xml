@@ -14,8 +14,8 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="NO-PAPER POLICY"
-            android:id="@+id/whatButton"
+            android:text="SUSTAINABLE HEALTHCARE INFRASTRUCTURE"
+            android:id="@+id/infraButton"
             android:layout_row="0"
             android:layout_column="0"
             />
@@ -23,8 +23,8 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="TELECOMMUTING"
-            android:id="@+id/whyButton"
+            android:text="EFFICIENT MEDICAL EQUIPMENTS"
+            android:id="@+id/equipmentButton"
             android:layout_row="0"
             android:layout_column="1"
             />
@@ -32,15 +32,15 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="GREEN SPACE"
-            android:id="@+id/exampleButton"
+            android:text="BIOMEDICAL WASTE MANAGEMENT"
+            android:id="@+id/biowasteButton"
             android:layout_row="1"
             android:layout_column="0"/>
 
-        <Button android:id="@+id/aboutButton"
+        <Button android:id="@+id/deviceButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="VEHICLE POOLING"
+            android:text="MEDICAL DEVICE REPROCESSING"
             android:layout_row="1"
             android:layout_column="1"/>
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_intro" android:icon="@drawable/download"
+            android:title="Know Sustainable Development" />
+    </group>
+
+    <item android:title="Infrastructure Models">
+        <menu>
+            <item android:id="@+id/nav_hotels" android:icon="@drawable/hotelicon"
+                android:title="Hotels" />
+            <item android:id="@+id/nav_factories" android:icon="@drawable/factory"
+                android:title="Factories" />
+            <item android:id="@+id/nav_edu" android:icon="@drawable/school"
+                android:title="Educational Institutes" />
+            <item android:id="@+id/nav_office" android:icon="@drawable/office_buildings"
+                android:title="Offices" />
+            <item android:id="@+id/nav_hospital" android:icon="@drawable/hospital"
+                android:title="Hospitals" />
+            <item android:id="@+id/nav_houses" android:icon="@mipmap/ic_launcher"
+                android:title="Houses" />
+            <item android:id="@+id/nav_others" android:icon="@drawable/images"
+                android:title="Others" />
+        </menu>
+    </item>
+
+</menu>

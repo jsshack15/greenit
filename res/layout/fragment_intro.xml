@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.sdcards.greenit.greenit.IntroFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:text="WHAT"
+            android:id="@+id/whatButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:text="WHY"
+            android:id="@+id/whyButton"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:text="SILVER LINING"
+            android:id="@+id/exampleButton"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <Button android:id="@+id/aboutButton"
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:text="ABOUT US"
+            android:layout_row="1"
+            android:layout_column="1"/>
+
+    </GridLayout>
+
+</FrameLayout>

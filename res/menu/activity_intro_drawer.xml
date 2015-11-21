@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_intro" android:icon="@drawable/download"
+        <item android:id="@+id/nav_intro" android:icon="@drawable/about_ic"
             android:title="Know Sustainable Development" />
+        <item android:id="@+id/nav_univ" android:icon="@drawable/xyz"
+            android:title="Universal Solutions" />
     </group>
 
     <item android:title="Infrastructure Models">
         <menu>
-            <item android:id="@+id/nav_hotels" android:icon="@drawable/hotelicon"
+            <item android:id="@+id/nav_hotels" android:icon="@drawable/hotel_ic"
                 android:title="Hotels" />
-            <item android:id="@+id/nav_factories" android:icon="@drawable/factory"
-                android:title="Factories" />
-            <item android:id="@+id/nav_edu" android:icon="@drawable/school"
+            <item android:id="@+id/nav_edu" android:icon="@drawable/edu_ic"
                 android:title="Educational Institutes" />
-            <item android:id="@+id/nav_office" android:icon="@drawable/office_buildings"
+            <item android:id="@+id/nav_office" android:icon="@drawable/office_ic"
                 android:title="Offices" />
-            <item android:id="@+id/nav_hospital" android:icon="@drawable/hospital"
+            <item android:id="@+id/nav_hospital" android:icon="@drawable/hospital_ic"
                 android:title="Hospitals" />
-            <item android:id="@+id/nav_houses" android:icon="@mipmap/ic_launcher"
+            <item android:id="@+id/nav_houses" android:icon="@drawable/house_ic"
                 android:title="Houses" />
-            <item android:id="@+id/nav_others" android:icon="@drawable/images"
-                android:title="Others" />
+            <item android:id="@+id/nav_about" android:icon="@drawable/xyz"
+                android:title="About Us" />
         </menu>
     </item>
 

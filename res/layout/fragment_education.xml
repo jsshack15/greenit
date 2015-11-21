@@ -18,31 +18,34 @@
             android:id="@+id/literacyButton"
             android:layout_row="0"
             android:layout_column="0"
-            android:onClick="literacyButtonClicked" />
+             />
 
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="INDOOR AIR QUALITY"
-            android:id="@+id/whyButton"
+            android:id="@+id/indoorButton"
             android:layout_row="0"
             android:layout_column="1"
+
             />
 
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="CREATE SIGNAGE"
-            android:id="@+id/exampleButton"
+            android:id="@+id/signageButton"
             android:layout_row="1"
-            android:layout_column="0"/>
+            android:layout_column="0"
+            />
 
-        <Button android:id="@+id/aboutButton"
+        <Button android:id="@+id/elearningButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text=""
+            android:text="E-LEARNING"
             android:layout_row="1"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            />
 
     </GridLayout>
 

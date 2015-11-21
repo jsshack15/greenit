@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -23,12 +24,52 @@ public class EducationFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_education, container, false);
-    }
+        View view=inflater.inflate(R.layout.fragment_education, container, false);
 
-    public void literacyButtonClicked(View view){
-        startActivity(new Intent(view.getContext(), LiteracyActivity.class));
-    }
+        Button literacyButton = (Button) view.findViewById(R.id.literacyButton);
 
+        literacyButton.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(v.getContext(), LiteracyActivity.class));
+                    }
+                }
+        );
+
+        Button indoorButton = (Button) view.findViewById(R.id.indoorButton);
+
+        indoorButton.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(v.getContext(), IndoorActivity.class));
+                    }
+                }
+        );
+
+        Button signageButton = (Button) view.findViewById(R.id.signageButton);
+
+        signageButton.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(v.getContext(), SignageActivity.class));
+                    }
+                }
+        );
+
+        Button elearningButton = (Button) view.findViewById(R.id.elearningButton);
+
+        elearningButton.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(v.getContext(), ElearningActivity.class));
+                    }
+                }
+        );
+
+        return view;
+    }
 }

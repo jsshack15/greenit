@@ -14,7 +14,7 @@
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="WASTE MANAGEMENT"
-            android:id="@+id/whatButton"
+            android:id="@+id/wasteButton"
             android:layout_row="0"
             android:layout_column="0"
             />
@@ -23,7 +23,7 @@
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="ENERGY EFFICIENCY"
-            android:id="@+id/whyButton"
+            android:id="@+id/energyButton"
             android:layout_row="0"
             android:layout_column="1"
             />
@@ -32,11 +32,11 @@
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="WATER CONSERVATION"
-            android:id="@+id/exampleButton"
+            android:id="@+id/waterButton"
             android:layout_row="1"
             android:layout_column="0"/>
 
-        <Button android:id="@+id/aboutButton"
+        <Button android:id="@+id/employeeButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="EMPLOYEE AWARENESS"

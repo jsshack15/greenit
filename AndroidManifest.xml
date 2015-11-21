@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".IntroActivity"
+            android:name=".Splash"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -18,9 +18,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ElearningActivity" >
         </activity>
         <activity android:name=".LiteracyActivity" >
+        </activity>
+        <activity android:name=".IndoorActivity" >
+        </activity>
+        <activity android:name=".SignageActivity" >
+        </activity>
+        <activity android:name=".HotelWasteActivity" >
+        </activity>
+        <activity android:name=".HotelEnergyActivity" >
+        </activity>
+        <activity android:name=".HotelWaterActivity" >
+        </activity>
+        <activity android:name=".HotelEmployeeActivity" >
+        </activity>
+        <activity android:name=".OfficeExteriorActivity" >
+        </activity>
+        <activity android:name=".IeqActivity" >
+        </activity>
+        <activity android:name=".OfficeWorkActivity" >
+        </activity>
+        <activity android:name=".OfficeGeoActivity" >
         </activity>
     </application>
 

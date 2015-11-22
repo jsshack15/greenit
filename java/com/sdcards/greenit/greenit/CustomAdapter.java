@@ -144,7 +144,7 @@ public class CustomAdapter extends ArrayAdapter<String>{
                 break;
             case "leed":
                 content = "What is LEED? Leadership in Energy and Environmental Design (LEED) is basically a third-party certification program. It is a nationally accepted organization for design, operation and construction of high performance green buildings. This ensures the buildings are environmentally compatible, provide a healthy work environment and are profitable.\n\nLEED certified buildings are commanding higher rental rates and great occupancy than the non-green buildings. This trend cannot help but impact the Investment community. The supply while gradually increasing is not keeping up with the demand for green buildings. LEED New Construction buildings are awarded points for sustainability for things like energy-efficient lighting, low-flow plumbing fixtures and collection of water to name a few.";
-                bobsImage.setImageResource(R.drawable.leed);
+                bobsImage.setImageResource(R.drawable.ld);
                 break;
             case "r":
                 content = "Reduce:\nReduce means using fewer resources in the first place.\nReuse:\nBefore you recycle or dispose of anything, consider whether it has life left in it. A jam jar can store leftovers.\nRecycle:\nRecycling is the \"R\" that has caught on the best.";

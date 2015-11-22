@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_gravity="center_horizontal"
-        >
+        android:layout_marginTop="50dp">
 
         <Button
             android:layout_width="190dp"
@@ -21,7 +21,8 @@
             android:layout_row="0"
             android:layout_column="0"
             android:background="@drawable/office_roof_tops"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="20dp" />
 
         <Button
             android:layout_width="190dp"
@@ -31,7 +32,8 @@
             android:layout_row="0"
             android:layout_column="1"
             android:background="@drawable/ieq1"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="20dp" />
 
         <Button
             android:layout_width="190dp"
@@ -41,7 +43,8 @@
             android:layout_row="1"
             android:layout_column="0"
             android:background="@drawable/green_work"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="20dp" />
 
         <Button android:id="@+id/geoButton"
             android:layout_width="190dp"
@@ -50,7 +53,8 @@
             android:layout_row="1"
             android:layout_column="1"
             android:background="@drawable/office_roof_tops"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="20dp" />
 
     </GridLayout>
 </RelativeLayout>

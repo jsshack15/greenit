@@ -9,7 +9,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_gravity="center_horizontal"
-        android:background="#4c8439">
+        android:background="#4c8439"
+        android:layout_marginTop="50dp">
 
         <Button
             android:layout_width="190dp"

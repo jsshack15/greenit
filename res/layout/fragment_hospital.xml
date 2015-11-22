@@ -9,40 +9,47 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
 
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="SUSTAINABLE HEALTHCARE INFRASTRUCTURE"
+            android:text="SUSTAINABLE\nHEALTHCARE\nINFRASTRUCTURE"
             android:id="@+id/infraButton"
             android:layout_row="0"
             android:layout_column="0"
-            />
+            android:background="@drawable/hosinfra"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="EFFICIENT MEDICAL EQUIPMENTS"
+            android:text="EFFICIENT\nMEDICAL\nEQUIPMENTS"
             android:id="@+id/equipmentButton"
             android:layout_row="0"
             android:layout_column="1"
-            />
+            android:background="@drawable/medequip"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="BIOMEDICAL WASTE MANAGEMENT"
+            android:text="BIOMEDICAL\nWASTE\nMANAGEMENT"
             android:id="@+id/biowasteButton"
             android:layout_row="1"
-            android:layout_column="0"/>
+            android:layout_column="0"
+            android:background="@drawable/bw"
+            android:textStyle="bold" />
 
         <Button android:id="@+id/deviceButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="MEDICAL DEVICE REPROCESSING"
+            android:text="MEDICAL\nDEVICE\nREPROCESSING"
             android:layout_row="1"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:background="@drawable/device"
+            android:textStyle="bold" />
 
     </GridLayout>
 

@@ -65,7 +65,7 @@ public class IntroFragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(v.getContext(), ExampleActivity.class));
+                        startActivity(new Intent(v.getContext(), SuccessActivity.class));
                     }
                 }
         );

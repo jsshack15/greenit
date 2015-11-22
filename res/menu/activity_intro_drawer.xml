@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_intro" android:icon="@drawable/about_ic"
             android:title="Know Sustainable Development" />
-        <item android:id="@+id/nav_univ" android:icon="@drawable/xyz"
+        <item android:id="@+id/nav_univ" android:icon="@drawable/univ_ic"
             android:title="Universal Solutions" />
     </group>
 
@@ -20,7 +20,7 @@
                 android:title="Hospitals" />
             <item android:id="@+id/nav_houses" android:icon="@drawable/house_ic"
                 android:title="Houses" />
-            <item android:id="@+id/nav_about" android:icon="@drawable/xyz"
+            <item android:id="@+id/nav_about" android:icon="@drawable/info"
                 android:title="About Us" />
         </menu>
     </item>

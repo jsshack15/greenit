@@ -82,8 +82,6 @@
         </activity>
         <activity android:name=".WhyActivity" >
         </activity>
-        <activity android:name=".ExampleActivity" >
-        </activity>
         <activity android:name=".HowActivity" >
         </activity>
         <activity android:name=".SuccessActivity" >

@@ -142,7 +142,101 @@ public class CustomAdapter extends ArrayAdapter<String>{
                 content = "Your Own Bit:\n- Turning off any lights or appliances when you don’t use them.\n- Remembering that even when you’re not using something and it’s plugged in, it’s still eating away at potentially saved energy.\n- Buying only recyclable containers and reusing plastics for food storage.";
                 bobsImage.setImageResource(R.drawable.bit);
                 break;
-
+            case "leed":
+                content = "What is LEED? Leadership in Energy and Environmental Design (LEED) is basically a third-party certification program. It is a nationally accepted organization for design, operation and construction of high performance green buildings. This ensures the buildings are environmentally compatible, provide a healthy work environment and are profitable.\n\nLEED certified buildings are commanding higher rental rates and great occupancy than the non-green buildings. This trend cannot help but impact the Investment community. The supply while gradually increasing is not keeping up with the demand for green buildings. LEED New Construction buildings are awarded points for sustainability for things like energy-efficient lighting, low-flow plumbing fixtures and collection of water to name a few.";
+                bobsImage.setImageResource(R.drawable.leed);
+                break;
+            case "r":
+                content = "Reduce:\nReduce means using fewer resources in the first place.\nReuse:\nBefore you recycle or dispose of anything, consider whether it has life left in it. A jam jar can store leftovers.\nRecycle:\nRecycling is the \"R\" that has caught on the best.";
+                bobsImage.setImageResource(R.drawable.r);
+                break;
+            case "renew":
+                content = "Solar energy:\nBy installing solar panels at large and small scale.\nWind Energy:\nWind Power can be used in hotels in suitable locations for power independence.\nBiomass:\nBiomass can generate great power while also providing easy and convenient waste disposal.";
+                bobsImage.setImageResource(R.drawable.renew);
+                break;
+            case "model":
+                content = "Rainwater Harvesting Systems and Tankless Water Heaters:\nInstall a rainwater harvesting system while building your green home to collect rainwater from roofs and then storing it in a tank.\nThe collected water can then be used for other purposes such as toilets and sprinkler systems.\nRain barrels are one of the most common methods of rainwater harvesting being used today.";
+                bobsImage.setImageResource(R.drawable.model);
+                break;
+            case "sus":
+                content = "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\nSustainable development (SD) is a process for meeting human development goals while maintaining the ability of natural systems to continue to provide the natural resources and ecosystem services upon which the economy and society depend.";
+                bobsImage.setImageResource(R.drawable.green);
+                break;
+            case "why":
+                content = "Environmental Benefits:\n" +
+                        "Reduce wastage of water\n" +
+                        "Conserve natural resources\n" +
+                        "Improve air and water quality\n" +
+                        "Protect biodiversity and ecosystems\n" +
+                        "Economic Benefits:\n" +
+                        "Reduce operating costs\n" +
+                        "Improve occupant productivity\n" +
+                        "Create market for green product and services\n" +
+                        "Social Benefits:\n" +
+                        "Improve quality of life\n" +
+                        "Minimize strain on local infrastructure\n" +
+                        "Improve occupant health and comfort";
+                bobsImage.setImageResource(R.drawable.why);
+                break;
+            case "how":
+                content = "The ideal green building would be a building project that would allow you to preserve most of the natural environment around the project site, while still being able to produce a building that is going to serve a purpose.\nThe construction and operation will promote a healthy environment for all involved, and it will not disrupt the land, water, resources and energy in and around the building.\nThis is the actual definition of a green building.";
+                bobsImage.setImageResource(R.drawable.how);
+                break;
+            case "Hotel":
+                content = "Orchid Hotel Mumbai\nThe Orchid has various initiatives in the areas of\n" +
+                        "Solid Waste Management\n" +
+                        "Energy Efficiency\n" +
+                        "Water Conservation and Preservation\n" +
+                        "Environmental Commitment\n" +
+                        "Employee Environmental Education and Community Involvement";
+                bobsImage.setImageResource(R.drawable.orchid);
+                break;
+            case "House":
+                content = "East Sussex\nYou name it, this house has it: an air-source heat pump, a rainwater harvester, central-\n" +
+                        "\n" +
+                        "vacuuming system, triple-glazing and motion-sensitive lighting system. It also features underfloor \n" +
+                        "\n" +
+                        "heating and self-closing loos. The five bedrooms are arranged over three storeys. The property \n" +
+                        "\n" +
+                        "comes with about 11 acres of grounds and gardens.";
+                bobsImage.setImageResource(R.drawable.sussex);
+                break;
+            case "Hospital":
+                content = "Rush University Medical Center:\nwas, at\n" +
+                        "\n" +
+                        "time of its opening in early 2012, the biggest new healthcare complex worldwide to receive LEED \n" +
+                        "\n" +
+                        "Gold certification.\nThe building’s\n" +
+                        "\n" +
+                        "unique shape, created by international architects Perkins+Will, is designed to maximize the \n" +
+                        "\n" +
+                        "amount of sunlight it receives. Materials used in its construction were eco-friendly and recycling \n" +
+                        "\n" +
+                        "is prioritized. The building also boasts several green roofs.";
+                bobsImage.setImageResource(R.drawable.hos);
+                break;
+            case "Office":
+                content = "Powerhouse Kjørbo:\nIt is Norway’s first energy-positive building and the first in\n" +
+                        "\n" +
+                        "the world to be renovated into an energy-positive structure.\nHeat loss, meanwhile, is minimized by using\n" +
+                        "\n" +
+                        "tight-fitting walls, ceilings and windows, as well as insulation. Exterior sun \n" +
+                        "\n" +
+                        "shading and exposed concrete decks are two means of reducing \n" +
+                        "\n" +
+                        "temperature in the summer.";
+                bobsImage.setImageResource(R.drawable.office);
+                break;
+            case "School":
+                content = "The Berea college:\nThis tiny school in Berea, KY might just be the most eco-friendly school in the country, let alone our southern\n" +
+                        "\n" +
+                        "colleges list. Baking sustainability to its core, Berea College has been paving the way for year, claiming the first \n" +
+                        "\n" +
+                        "LEED-certified building in Kentucky. They have an ecovillage, community aquaphonics system, and a college \n" +
+                        "\n" +
+                        "farm and garden (which produces most of the school’s food).";
+                bobsImage.setImageResource(R.drawable.college);
+                break;
         }
 
         bobsText.setText(content);

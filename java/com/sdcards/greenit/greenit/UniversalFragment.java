@@ -26,46 +26,46 @@ public class UniversalFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_universal, container, false);
 
-        Button structButton = (Button) view.findViewById(R.id.structButton);
+        Button leedButton = (Button) view.findViewById(R.id.leedButton);
 
-        structButton.setOnClickListener(
+        leedButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(v.getContext(), HealthInfraActivity.class));
+                        startActivity(new Intent(v.getContext(), LeedActivity.class));
                     }
                 }
         );
 
-        Button enefButton = (Button) view.findViewById(R.id.enefButton);
+        Button rButton = (Button) view.findViewById(R.id.rButton);
 
-        enefButton.setOnClickListener(
+        rButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(v.getContext(), EnefActivity.class));
+                        startActivity(new Intent(v.getContext(), RActivity.class));
                     }
                 }
         );
 
-        Button landButton = (Button) view.findViewById(R.id.landButton);
+        Button renewableButton = (Button) view.findViewById(R.id.renewableButton);
 
-        landButton.setOnClickListener(
+        renewableButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(v.getContext(), BioWasteActivity.class));
+                        startActivity(new Intent(v.getContext(), RenewableActivity.class));
                     }
                 }
         );
 
-        Button householdButton = (Button) view.findViewById(R.id.householdButton);
+        Button modelButton = (Button) view.findViewById(R.id.modelButton);
 
-        householdButton.setOnClickListener(
+        modelButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(v.getContext(), MedDeviceActivity.class));
+                        startActivity(new Intent(v.getContext(), ModelActivity.class));
                     }
                 }
         );

@@ -1,9 +1,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.sdcards.greenit.greenit.AboutFragment">
+    android:layout_height="match_parent" tools:context="com.sdcards.greenit.greenit.AboutFragment"
+    android:background="@drawable/green">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <TextView android:layout_width="match_parent" android:layout_height="421dp"
+        android:text="Green It is designed to help individuals and organizations recognize methods of incorporating Sustainable Development in their infrastructure.\nThe methods specified are divrse and yet brief, and ensure overall progres and profit for the applying individuals and organizations."
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>

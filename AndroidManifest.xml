@@ -70,6 +70,24 @@
         </activity>
         <activity android:name=".HouseholdActivity" >
         </activity>
+        <activity android:name=".LeedActivity" >
+        </activity>
+        <activity android:name=".RActivity" >
+        </activity>
+        <activity android:name=".RenewableActivity" >
+        </activity>
+        <activity android:name=".ModelActivity" >
+        </activity>
+        <activity android:name=".WhatActivity" >
+        </activity>
+        <activity android:name=".WhyActivity" >
+        </activity>
+        <activity android:name=".ExampleActivity" >
+        </activity>
+        <activity android:name=".HowActivity" >
+        </activity>
+        <activity android:name=".SuccessActivity" >
+        </activity>
     </application>
 
 </manifest>

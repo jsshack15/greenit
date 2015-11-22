@@ -15,7 +15,7 @@
         android:layout_width="190dp"
         android:layout_height="250dp"
         android:text="LEED\nCERTIFICATION\n"
-        android:id="@+id/exteriorButton"
+        android:id="@+id/leedButton"
         android:layout_row="0"
         android:layout_column="0"
         />
@@ -23,8 +23,8 @@
     <Button
         android:layout_width="190dp"
         android:layout_height="250dp"
-        android:text="3 R's OF\nSUSTAINABLE DEVELOPEMENT"
-        android:id="@+id/ieqButton"
+        android:text="3 R's OF\nSUSTAINABLE\nDEVELOPEMENT"
+        android:id="@+id/rButton"
         android:layout_row="0"
         android:layout_column="1"
         />
@@ -32,15 +32,15 @@
     <Button
         android:layout_width="190dp"
         android:layout_height="250dp"
-        android:text="GREEN\nWORK\n"
-        android:id="@+id/workButton"
+        android:text="RENEWABLE\nRESOURCES\n"
+        android:id="@+id/renewableButton"
         android:layout_row="1"
         android:layout_column="0"/>
 
-    <Button android:id="@+id/geoButton"
+    <Button android:id="@+id/modelButton"
         android:layout_width="190dp"
         android:layout_height="250dp"
-        android:text="GEOTHERMAL\nHEATING AND\nCOOLING"
+        android:text="INFRASTRUCTURE MODELLING"
         android:layout_row="1"
         android:layout_column="1"/>
     </GridLayout>

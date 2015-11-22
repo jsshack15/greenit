@@ -32,15 +32,15 @@
         <Button
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="SILVER LINING"
-            android:id="@+id/exampleButton"
+            android:text="HOW"
+            android:id="@+id/howButton"
             android:layout_row="1"
             android:layout_column="0"/>
 
-        <Button android:id="@+id/aboutButton"
+        <Button android:id="@+id/exampleButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
-            android:text="ABOUT US"
+            android:text="SILVER LINING"
             android:layout_row="1"
             android:layout_column="1"/>
 

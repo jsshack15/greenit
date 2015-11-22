@@ -1,7 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sdcards.greenit.greenit.OfficeFragment">
+    tools:context="com.sdcards.greenit.greenit.OfficeFragment"
+    android:background="#4c8439">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -9,7 +10,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        >
 
         <Button
             android:layout_width="190dp"
@@ -18,7 +20,8 @@
             android:id="@+id/exteriorButton"
             android:layout_row="0"
             android:layout_column="0"
-            />
+            android:background="@drawable/office_roof_tops"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="190dp"
@@ -27,7 +30,8 @@
             android:id="@+id/ieqButton"
             android:layout_row="0"
             android:layout_column="1"
-            />
+            android:background="@drawable/ieq1"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="190dp"
@@ -35,14 +39,18 @@
             android:text="GREEN\nWORK\n"
             android:id="@+id/workButton"
             android:layout_row="1"
-            android:layout_column="0"/>
+            android:layout_column="0"
+            android:background="@drawable/green_work"
+            android:textStyle="bold" />
 
         <Button android:id="@+id/geoButton"
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:text="GEOTHERMAL\nHEATING AND\nCOOLING"
             android:layout_row="1"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:background="@drawable/office_roof_tops"
+            android:textStyle="bold" />
 
     </GridLayout>
 </RelativeLayout>
